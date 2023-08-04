@@ -242,6 +242,7 @@ p.expire-date-coupon {
 
 .content-card ul li {
     font-size: 14px;
+    color: #000;
 }
 
 .tab-content b {
@@ -253,4 +254,8 @@ p.expire-date-coupon {
 .progress-num .label{
     margin-right: 5px;
     display: inline-block;
+}
+.item-history .price .text-bold {
+    color: #0E1D38;
+    font-size: 16px;
 }
