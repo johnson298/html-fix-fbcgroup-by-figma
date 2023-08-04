@@ -10,7 +10,6 @@ body {
 }
 .wrapper {
     padding-bottom: 150px;
-    width: 100%;
     margin: 0 auto;
     border: 1px solid #f2f2f2;
     border-top: none;
@@ -20,6 +19,7 @@ body {
     top: 0;
     left: 50%;
     background: #fff;
+    width: 450px;
 }
 .b-title h5 {
     font-size: 18px;
@@ -36,6 +36,7 @@ body {
 
 #nav-tab {
     border: none;
+    gap: 3px;
 }
 
 #nav-tab .nav-link.active {
@@ -67,27 +68,13 @@ body {
     font-weight: bold;
 }
 .txt-need-to {
-    font-size: 14px;
+    font-size: 12px;
     text-align: center !important;
     margin-top: 4px;
     font-weight: 600;
 }
 
 
-#nav-tab {
-    margin-top: 20px;
-}
-.txt-need-to {
-    font-size: 14px;
-    text-align: center !important;
-    margin-top: 4px;
-    font-weight: 600;
-}
-
-
-#nav-tab {
-    margin-top: 20px;
-}
 .logo {
     padding: 20px !important;
     text-align: center;
@@ -99,6 +86,10 @@ body {
     position: absolute !important;
     top: 50% !important;
     transform: translateY(-50%);
+    border: none !important;
+}
+.btn-back:hover{
+    background: rgba(0,0,0,.1);
 }
 
 .header {position: relative;    border-bottom: 1px solid #cccccc4f;}
@@ -254,8 +245,29 @@ p.expire-date-coupon {
 .progress-num .label{
     margin-right: 5px;
     display: inline-block;
+    font-weight: 400;
 }
 .item-history .price .text-bold {
     color: #0E1D38;
     font-size: 16px;
+}
+@media (max-width: 556px) {
+    .wrapper {
+        width: 100%
+    }
+}
+.progress-num ,.b-title{
+    font-size: 14px;
+}
+
+.f14{
+    font-size: 14px;
+}
+.btn-next{
+    padding: 0 !important;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
